@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>JavaScript</title>
+
+</head>
+
+<body>
+    <h2>JavaScript</h2>
+    <button type="button" onclick="message('Labas')">Click</button>
+    <script>
+        var b = 0;
+        var c = add(30, 20);
+
+        function message(a){
+            var b = 0;
+            b++;
+            var output = a + ' ' + b;
+            document.querySelector('h2').innerHTML = output;
+            console.log(a);
+
+
+        }
+
+        function add(a, b) {
+            return a + b;
+
+        }
+
+        function add2(e, t) {
+            return e * t;
+        }
+        
+        function add3(d,g){
+            return d % g;
+        }
+    </script>
+</body>
+
+</html>
+
